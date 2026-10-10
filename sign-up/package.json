@@ -1,0 +1,18 @@
+{
+  "name": "LearnOcean - Sign Up",
+  "version": "1.0.0",
+  "description": "Signup page with email OTP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["signup", "otp", "nodemailer", "express", "auth"],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  }
+}
